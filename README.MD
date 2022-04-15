@@ -56,4 +56,6 @@ which uses GEONames database to find most close city in 300km[* ](https://earthq
 uses that place information to find which country place belongs with another api
 of USGS to find geolocation and saves data into [knownLocations.txt](./location/knownLocations.txt).
 
+## How to use application
+
  ![search](./images/search.gif)
