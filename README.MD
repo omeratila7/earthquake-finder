@@ -10,6 +10,7 @@ This is a single page web application for finding earthquakes at last given days
 | HTML, CSS        |
 
 ## How to run application
+
 ```shell
  git clone https://github.com/omeratila7/earthquake-finder.git
  cd earthquake-finder
@@ -50,12 +51,13 @@ main
 
 
 ```
-USGS Earthquake api provides sources code, but it is code of network contributors.
-So the api doesn't provide country information. Api provides place information 
-which uses GEONames database to find most close city in 300km[* ](https://earthquake.usgs.gov/data/comcat/index.php#place). This application
-uses that place information to find which country place belongs with another api
-of USGS to find geolocation and saves data into [knownLocations.txt](./location/knownLocations.txt).
+
+USGS Earthquake api provides sources code, but it is code of network contributors.So the api doesn't provide country
+information. Api provides place information which created with GEONames database to find most close city in
+300km[* ](https://earthquake.usgs.gov/data/comcat/index.php#place). This application uses that place information to find
+which country that place belongs to with another api of USGS to find geolocation and saves data
+into [knownLocations.txt](./location/knownLocations.txt).
 
 ## How to use application
 
- ![search](./images/search.gif)
+![search](./images/search.gif)
