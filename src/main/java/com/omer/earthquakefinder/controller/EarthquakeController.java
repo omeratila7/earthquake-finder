@@ -79,7 +79,7 @@ public class EarthquakeController {
                     .boxed()
                     .collect(Collectors.toList());
             model.addAttribute("availablePages", availablePages);
-        } else if (country != null) {
+        } else if (country != null && country != "") {
             throw new RuntimeException("No Earthquakes were recorded past " + count + " days in " + country);
         }
 

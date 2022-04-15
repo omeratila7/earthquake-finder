@@ -22,6 +22,8 @@ $(document).ready(function () {
     })
 
     $("#search-button").on('click', function () {
+        if(!$('#content-form')[0].checkValidity())
+            return;
         let el = document.getElementsByClassName('table-div')[0];
         el.removeAttribute('hidden')
         $.ajax({
