@@ -1,6 +1,16 @@
 $(document).ready(function () {
 
+    $('#content-form').submit(function (e) {
+        e.preventDefault();
+        $("#search-button").click();
+        return;
+    });
+
     $("#countOfDays").on('change', function () {
+        if (this.value == null) {
+            $('#table').attr('hidden', true);
+        }
+
         $.ajax({
             type: 'GET',
             url: '/',
@@ -22,10 +32,12 @@ $(document).ready(function () {
     })
 
     $("#search-button").on('click', function () {
-        if(!$('#content-form')[0].checkValidity())
+        if (!$('#content-form')[0].checkValidity()) {
+            $('#table').attr('hidden', true);
             return;
+        }
         let el = document.getElementsByClassName('table-div')[0];
-        el.removeAttribute('hidden')
+        el.removeAttribute('hidden');
         $.ajax({
             type: 'GET',
             url: '/search',
