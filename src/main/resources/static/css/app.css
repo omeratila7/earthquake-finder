@@ -54,7 +54,7 @@ form:before {
     z-index: -1;
 }
 
-.form-group, .form-check {
+.form-group {
     margin: 20px
 }
 
