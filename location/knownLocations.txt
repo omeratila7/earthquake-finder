@@ -1,0 +1,158 @@
+CA:United States
+Tonga:Tonga
+Alaska:United States
+Chile:Chile
+Puerto Rico:Puerto Rico
+Nevada:United States
+Hawaii:United States
+Utah:United States
+Idaho:United States
+Bolivia:Bolivia
+Wyoming:United States
+Oklahoma:United States
+Montana:United States
+MX:Mexico
+Turkey:Turkey
+Saint Eustatius and Saba:Bonaire, Saint Eustatius and Saba 
+New Mexico:United States
+Washington:United States
+Southern Alaska:United States
+New Caledonia:New Caledonia
+California:United States
+Bouvet Island region:Ocean
+Iran:Iran
+south of the Fiji Islands:Ocean
+south of Tonga:Ocean
+Tennessee:United States
+Texas:United States
+Japan:Japan
+Russia:Russia
+Oregon:United States
+Puerto Rico region:Puerto Rico
+Guatemala:Guatemala
+Indonesia:Indonesia
+Canada:Canada
+Greece:Greece
+Southwest Indian Ridge:Ocean
+southeast of Easter Island:Ocean
+western Texas:United States
+Philippines:Philippines
+Dominican Republic:Dominican Republic
+Argentina:Argentina
+Timor Leste:Timor Leste
+northern Alaska:United States
+El Salvador:El Salvador
+Papua New Guinea:Papua New Guinea
+Vanuatu:Vanuatu
+Colombia:Colombia
+Illinois:United States
+Solomon Islands:Solomon Islands
+Namibia:Namibia
+Virginia:United States
+Missouri:United States
+Costa Rica:Costa Rica
+Taiwan:Taiwan
+South Sandwich Islands region:Ocean
+Afghanistan:Afghanistan
+Mozambique:Mozambique
+New Zealand:New Zealand
+Peru:Peru
+Fiji:Fiji
+Central Alaska:United States
+Maine:United States
+Reykjanes Ridge:Ocean
+Southeastern Alaska:United States
+Wallis and Futuna:Wallis and Futuna
+Japan region:Ocean
+Mexico:Mexico
+U.S. Virgin Islands:U.S. Virgin Islands
+Pakistan:Pakistan
+northern Mid-Atlantic Ridge:Ocean
+Madagascar:Madagascar
+Mariana Islands region:Ocean
+Alaska Peninsula:United States
+western Indian-Antarctic Ridge:Ocean
+Kosovo:Kosovo
+Myanmar:Myanmar
+southeast of the Loyalty Islands:Ocean
+Nepal:Nepal
+Mid-Indian Ridge:Ocean
+Arkansas:United States
+India:India
+southern Idaho:United States
+Portugal:Portugal
+off the coast of Oregon:Ocean
+South Carolina:United States
+Carlsberg Ridge:Ocean
+Fiji region:Ocean
+Haiti:Haiti
+southern East Pacific Rise:Ocean
+Idaho-Montana border region:United States
+off the coast of Central America:Ocean
+Poland:Poland
+Malawi:Malawi
+central Mid-Atlantic Ridge:Ocean
+China:China
+Kermadec Islands region:Ocean
+Venezuela:Venezuela
+California-Nevada border region:United States
+off the coast of Ecuador:Ocean
+southeast Indian Ridge:Ocean
+Nicaragua:Nicaragua
+Guadeloupe:Guadeloupe
+Arizona:United States
+Northern Mariana Islands:Northern Mariana Islands
+Ecuador:Ecuador
+Kuril Islands:Ocean
+Bulgaria:Bulgaria
+south of Alaska:United States
+Banda Sea:Ocean
+Micronesia:Micronesia
+southeastern Missouri:United States
+south of the Kermadec Islands:Ocean
+Ethiopia:Ethiopia
+Tajikistan:Tajikistan
+Western Montana:United States
+New York:United States
+Colorado:United States
+Tanzania:Tanzania
+Mona Passage:Puerto Rico
+Vermont:United States
+Pacific-Antarctic Ridge:Ocean
+Greenland Sea:Ocean
+Central Turkey:Turkey
+Kyrgyzstan:Kyrgyzstan
+West Chile Rise:Ocean
+Argentina-Paraguay border region:Argentina
+Guam:Guam
+Italy:Italy
+Georgia:United States
+Australia:Australia
+India region:Ocean
+Panama:Panama
+Honduras:Honduras
+north of Ascension Island:Ocean
+Saint Kitts and Nevis:Saint Kitts and Nevis
+Gulf of Alaska:United States
+Revilla Gigedo Islands region:Ocean
+Galapagos Triple Junction region:Ocean
+Ecuador region:Ocean
+Armenia:Armenia
+southern Mid-Atlantic Ridge:Ocean
+Kansas:United States
+OR:United States
+Kazakhstan:Kazakhstan
+Norway:Norway
+off the coast of Costa Rica:Costa Rica
+Ohio:United States
+western Xizang:Ocean
+Washington-Oregon border region:United States
+southern Iran:Iran
+Algeria:Algeria
+northern Algeria:Ocean
+Massachusetts:United States
+North Island of New Zealand:New Zealand
+Saudi Arabia:Saudi Arabia
+Federated States of Micronesia:Micronesia
+Ascension Island region:Ocean
+Indian Ocean Triple Junction:Ocean

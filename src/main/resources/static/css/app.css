@@ -1,0 +1,117 @@
+.main-div {
+    background: #222 url("/images/bg.jpg");
+    background-size: cover;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.modal {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.container {
+    max-width: 95%;
+}
+
+table {
+    margin-right: 20px;
+}
+
+.pagination {
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+
+.row {
+    margin: 0;
+}
+
+.caption-div {
+    width: 100%;
+    position: relative;
+    z-index: 1;
+}
+
+.form-div {
+    min-width: 350px;
+    min-height: 450px;
+    align-items: center;
+    flex: 0 0 28%;
+    width: 28%;
+}
+
+/* only used for background overlay not needed for centering */
+form:before {
+    content: '';
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+}
+
+.form-group, .form-check {
+    margin: 20px
+}
+
+.page-content {
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+}
+
+li span {
+    cursor: pointer;
+}
+
+li span.active {
+    cursor: auto;
+}
+
+.loader-wrapper {
+    z-index: 999;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(36, 47, 63, 0.36);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loader {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    position: relative;
+    border: 4px solid #Fff;
+    animation: loader 2s infinite ease;
+}
+.loader-inner {
+    vertical-align: top;
+    display: inline-block;
+    width: 100%;
+    background-color: #fff;
+    animation: loader-inner 2s infinite ease-in;
+}
+
+@keyframes loader {
+    0% { transform: rotate(0deg);}
+    25% { transform: rotate(180deg);}
+    50% { transform: rotate(180deg);}
+    75% { transform: rotate(360deg);}
+    100% { transform: rotate(360deg);}
+}
+
+@keyframes loader-inner {
+    0% { height: 0%;}
+    25% { height: 0%;}
+    50% { height: 100%;}
+    75% { height: 100%;}
+    100% { height: 0%;}
+}

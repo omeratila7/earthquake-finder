@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+
+<th:block th:fragment="table"
+          th:with=" show = ${earthquakePage == null ? false : earthquakePage.content.size() != 0}">
+    <div class="col p-4 table-div" id="table" th:hidden="!${show}" th:data="${show}">
+        <th:block th:if="${show}">
+            <table class="table text-white col p-4">
+                <thead>
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Country</th>
+                    <th scope="col">Place</th>
+                    <th scope="col">Magnitude</th>
+                    <th scope="col">Time</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr th:each="earthquake, iter : ${earthquakePage.content}">
+                    <th scope="row" th:text="${((page - 1) * size ) + iter.index + 1}"></th>
+                    <td th:text="${earthquake.country}"></td>
+                    <td th:text="${earthquake.place}"></td>
+                    <td th:text="${#numbers.formatDecimal(earthquake.mag, 1, 2, 'POINT')}"></td>
+                    <td th:text="${earthquake.time.toString()}"></td>
+                </tr>
+                </tbody>
+            </table>
+            <div th:if="${earthquakePage.totalPages > 1}">
+                <ul class="pagination justify-content-center">
+                    <li class="page-item" th:each="pageNumber : ${availablePages}">
+                                <span th:text="${pageNumber}"
+                                      th:class="${pageNumber==earthquakePage.number + 1} ? active"
+                                      th:classappend="page-link" th:data-index="${pageNumber}"></span>
+                    </li>
+                </ul>
+            </div>
+        </th:block>
+    </div>
+</th:block>
+</html>

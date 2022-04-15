@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Earthquake finder</title>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/app.css" rel="stylesheet" type="text/css">
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.js"></script>
+    <script src="jsapp/script.js"></script>
+</head>
+<body>
+<div th:replace="fragments/modal.html :: modal"></div>
+<div class="loader-wrapper" id="loader" style="display:none;">
+    <span class="loader"><span class="loader-inner"></span></span>
+</div>
+<div class="main-div min-vh-100">
+    <div class="caption-div">
+        <div class="container d-flex justify-content-center">
+            <div class="page-content">
+                <div class="row text-white align-items-center">
+                    <div class="mx-auto text-center form-div p-4 form-div">
+                        <h2 class="display-6 py-2 text-truncate">Search Form</h2>
+                        <div class="px-2">
+                            <form class="justify-content-center" id="content-form">
+                                <div class="form-group">
+                                    <label class="sr-only" for="countOfDays">
+                                        Enter day range (max 30): </label>
+                                    <input type="number" class="form-control" id="countOfDays" name="countOfDays"
+                                           placeholder="Enter day range" min="1" max="30" required>
+                                </div>
+
+                                <div class="form-check" id="checkbox-form-group">
+                                    <label class="form-check-label" for="checkbox">Enter country name manuel</label>
+                                    <input type="checkbox" class="form-check-input" id="checkbox">
+                                </div>
+
+                                <div class="form-group" id="country-form-group">
+                                    <label class="sr-only" for="country">Options</label>
+                                    <select class="form-select col-sm-10" id="country" name="country" required>
+                                        <th:block th:unless="${countryList} == null">
+                                            <option th:each="country : ${countryList}" th:value="${country}"
+                                                    th:text="${country}"></option>
+                                        </th:block>
+                                    </select>
+                                </div>
+
+                                <button type="button" class="btn btn-primary btn-lg" id="search-button">Search</button>
+                            </form>
+                        </div>
+                    </div>
+                    <div th:replace="fragments/search.html :: table"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
