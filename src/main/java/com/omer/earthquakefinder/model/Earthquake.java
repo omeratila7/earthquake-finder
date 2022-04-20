@@ -1,14 +1,10 @@
 package com.omer.earthquakefinder.model;
 
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.core.env.Environment;
 
 import java.util.Date;
 
 public class Earthquake {
 
-    @Autowired
-    Environment environment;
     private String place;
     private Double mag;
     private Date time;
